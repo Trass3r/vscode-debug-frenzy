@@ -31,13 +31,15 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"extensionDependencies": [
-		"eamodio.gitlens",
-		"tintinweb.graphviz-interactive-preview"
+		"eamodio.gitlens"
 	],
 	"dependencies": {
-		"ts-graphviz": "^0.13.1"
+		"vis-data": "^7.1.2",
+		"vis-network": "^9.0.0",
+		"vis-util": "^5.0.1"
 	},
 	"devDependencies": {
+		"@egjs/hammerjs": "^2.0.17",
 		"@types/glob": "^7.1.3",
 		"@types/mocha": "^8.0.0",
 		"@types/node": "^14.0.27",
@@ -45,10 +47,14 @@
 		"vscode-debugprotocol": "^1.43.0",
 		"@typescript-eslint/eslint-plugin": "^3.8.0",
 		"@typescript-eslint/parser": "^3.8.0",
+		"component-emitter": "^1.3.0",
 		"eslint": "^7.6.0",
 		"glob": "^7.1.6",
+		"keycharm": "^0.4.0",
 		"mocha": "^8.0.1",
+		"timsort": "^0.3.0",
 		"typescript": "^3.8.3",
+		"uuid": "^8.3.2",
 		"vscode-test": "^1.4.0",
 		"vsce": "^1.83.0"
 	}
